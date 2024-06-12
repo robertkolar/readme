@@ -10,7 +10,6 @@
 - Placing opening/closing option orders from the UI with one click
 - Option chains for the underlying, updating on tick by tick basis
 
-
 ### Underlying Fields
 - symbol and expiration of the underlying futures contract
 - current underlying position
@@ -37,6 +36,15 @@
 - sum of option positions time values per underlying
 - total unrealized profit/loss per underlying
 - allocation percentage calculated from the margin requirements of the open option positions
+
+### Order Fields
+- TBD
+
+### Position Fields
+- TBD
+
+### Option Chain Fields
+- TBD
 
 # Trade Analytics
 - Trade analytics for options, futures, futures options, stocks and other instruments

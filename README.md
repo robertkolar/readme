@@ -38,14 +38,57 @@
 - allocation percentage calculated from the margin requirements of the open option positions
 
 ### Order Fields
-- TBD
+- underlying symbol root
+- symbol of the trading instrument
+- security type - futures option, future, option, stock, cfd
+- option or future expiration date
+- option right, put/call
+- option strike
+- bid size/price
+- ask size/price
+- last size/price
+- order source - underlying, position, option chain, delta hedge
+- order id
+- order permId
+- order action - buy, sell
+- order quantity
+- order limit price
+- fill price
+- commission paid
+- order heartbeat
+- order ib status
 
-### Position Fields
-- TBD
+### Option Position Fields
+- underlying symbol root
+- option or future expiration date
+- dte - days to expiration
+- option right - put/call
+- option strike
+- position size
+- margin requirement for the position
+- profit/loss for the position
+- percentage distance to the at-the-money strike
+- intrinsic value points of the position contract
+- time value points
+- intrinsic value of the position
+- time value of the position
+- time value percent yield
+- delta of the position contract
+- position delta
+- position gamma
+- position theta
+- contract model price
+- bid size/price
+- ask size/price
+- daily traded volume
+- option open interest
+- previous day close
+- option implied volatility
 
 ### Option Chain Fields
 - TBD
 
 # Trade Analytics
 - Trade analytics for options, futures, futures options, stocks and other instruments
+- TBD
 

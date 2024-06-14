@@ -69,15 +69,15 @@
 - profit/loss for the position
 - percentage distance to the at-the-money strike
 - intrinsic value points of the position contract
-- time value points
+- time value points of the position contract
 - intrinsic value of the position
 - time value of the position
-- time value percent yield
+- time value percentage yield
 - delta of the position contract
 - position delta
 - position gamma
 - position theta
-- contract model price
+- option model price
 - bid size/price
 - ask size/price
 - daily traded volume
@@ -86,7 +86,27 @@
 - option implied volatility
 
 ### Option Chain Fields
-- TBD
+- underlying symbol root
+- symbol of the option instrument
+- security type - futures option, option
+- option expiration date
+- dte - days to expiration
+- option right - put/call
+- option strike
+- percentage distance to the at-the-money strike
+- intrinsic value points of the option contract
+- time value points of the option contract
+- time value percentage yield
+- option delta
+- option model price
+- bid size/price
+- ask size/price
+- last size/price
+- daily traded volume
+- option open interest
+- previous day close
+- daily percentage change
+- option implied volatility
 
 # Trade Analytics
 - Trade analytics for options, futures, futures options, stocks and other instruments

@@ -125,8 +125,31 @@
 - instrument currency
 - instrument multiplier
 - fill price
-- options intrinsic value
-- proceeds in instrument's currency
+- option intrinsic value
+- proceeds in the currency of the instrument traded
 - option time value
 - instrument notional value - stock, futures
 - trade id
+
+### Trades Fields
+- trade id
+- trade type - long, short
+- underlying symbol root
+- symbol of the instrument traded
+- security type - futures option, future, option, stock, cfd
+- option right - put/call
+- instrument currency
+- instrument multiplier
+- cumulative quantity traded
+- last position size
+- trade open date
+- trade close date
+- trade cumulative open price
+- trade cumulative close price
+- trade points sum
+- traded proceeds sum
+- trade time value sum
+- trade notional value sum
+- closed trade profit/loss
+- number of trade executions
+- trade status

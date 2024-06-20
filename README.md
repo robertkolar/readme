@@ -110,5 +110,23 @@
 
 # Trade Analytics
 - Trade analytics for options, futures, futures options, stocks and other instruments
-- TBD
 
+### Executions Fields
+- execution id
+- fill date
+- execution reference
+- execution action - buy, sell
+- quantity traded
+- underlying symbol root
+- symbol of the instrument traded
+- security type - futures option, future, option, stock, cfd
+- underlying security type - future, stock
+- option right - put/call
+- instrument currency
+- instrument multiplier
+- fill price
+- options intrinsic value
+- proceeds in instrument's currency
+- option time value
+- instrument notional value - stock, futures
+- trade id

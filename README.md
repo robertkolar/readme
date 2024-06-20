@@ -92,7 +92,7 @@
 - symbol of the trading instrument
 - security type - futures option, future, option, stock, cfd
 - instrument currency
-- trading exchange - e.g. CME, CBOT, NYMEX, COMEX
+- trading exchange - e.g. cme, cbot, nymex, comex
 - instrument multiplier
 - order source - underlying, position, option chain, delta hedge
 - order permId
@@ -103,6 +103,28 @@
 - commission paid
 - order status date
 - order ib status - submitted, filled, canceled
+
+### Delta Hedge Fields
+- delta hedge event id
+- delta hedge event date
+- underlying symbol root
+- symbol of the trading instrument
+- security type - futures option, future, option, stock, cfd
+- instrument currency
+- instrument multiplier
+- delta hedge algo parameters
+- underlying last price
+- group delta
+- group delta average
+- delta hedge threshold
+- threshold break
+- delta hedge triggered
+- trading time condition met
+- time between orders condition met
+- position size condition met
+- delta hedge order action - buy, sell
+- delta hedge order quantity
+- delta hedge order id
 
 ### Option Chain Fields
 - underlying symbol root

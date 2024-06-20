@@ -56,7 +56,7 @@
 - fill price
 - commission paid
 - order heartbeat
-- order ib status
+- order ib status - submitted, filled, canceled
 
 ### Option Position Fields
 - underlying symbol root
@@ -84,6 +84,25 @@
 - option open interest
 - previous day close
 - option implied volatility
+
+### Order History Fields
+- record id
+- order submit date
+- underlying symbol root
+- symbol of the trading instrument
+- security type - futures option, future, option, stock, cfd
+- instrument currency
+- trading exchange - e.g. CME, CBOT, NYMEX, COMEX
+- instrument multiplier
+- order source - underlying, position, option chain, delta hedge
+- order permId
+- order action - buy, sell
+- order quantity
+- order limit price
+- fill price
+- commission paid
+- order status date
+- order ib status - submitted, filled, canceled
 
 ### Option Chain Fields
 - underlying symbol root

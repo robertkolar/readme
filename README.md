@@ -126,6 +126,28 @@
 - delta hedge order quantity
 - delta hedge order id
 
+### Underlying Snapshot Fields
+- snapshot id
+- snapshot date
+- underlying symbol root
+- symbol of the trading instrument
+- instrument currency
+- instrument multiplier
+- underlying last price
+- number of puts short
+- number of puts long
+- number of calls short
+- number of calls long
+- portfolio delta per 1% price change of the underlying
+- portfolio gamma per 1% price change of the underlying
+- combined portfolio delta per underlying
+- group delta/average for the underlying group of symbols
+- combined portfolio theta per underlying
+- sum of option positions intrinsic values per underlying
+- sum of option positions time values per underlying
+- total unrealized profit/loss per underlying
+- allocation percentage calculated from the margin requirements of the open option positions
+
 ### Option Chain Fields
 - underlying symbol root
 - symbol of the option instrument

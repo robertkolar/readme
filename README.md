@@ -153,3 +153,26 @@
 - closed trade profit/loss
 - number of trade executions
 - trade status
+
+### Statistics Fields
+- statistics id
+- number of executions for the period
+- number of open trades
+- number of closed trades
+- number of winners
+- number of losers
+- percentage of winners
+- biggest winner
+- biggest loser
+- winners profit
+- losers loss
+- proceeds bought
+- proceeds sold
+- proceeds sum
+- time value bought
+- time value sold
+- time value sum
+- profit/loss for the period
+- profit/loss percent for the period
+- profit/loss for the tax report
+- cumulative profit/loss

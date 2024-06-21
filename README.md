@@ -10,7 +10,7 @@
 - Placing opening/closing option orders from the UI with one click
 - Option chains for the underlying, updating on tick by tick basis
 - Instrument filtering by underlying symbol root, instrument symbol, security type, currency, multiplier
-- Option chain filtering by symbol root, option expiration from/to, option right - put/call/none, option strike from/to
+- Option chain filtering by symbol root, expiration from/to, right - put/call/none, strike from/to
 
 ### Underlying Fields
 - symbol and expiration of the underlying futures contract

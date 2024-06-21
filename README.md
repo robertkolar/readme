@@ -176,7 +176,7 @@
 # Trade Analytics
 - Trade analytics for options, futures, futures options, stocks and other instruments
 - Statistics calculation interval - days, weeks, months, years
-- Executions/Trades filtering by underlying symbol root, symbol, security type, option right, currency, instrument multiplier
+- Executions/Trades filtering by symbol root, symbol, security type, option right, currency, instrument multiplier
 - Statistics filtering by symbol root, symbol, security type, option right, currency, multiplier, trade type, interval
 
 ### Executions Fields

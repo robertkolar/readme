@@ -9,6 +9,8 @@
 - Automated delta hedging with the underlying futures instruments
 - Placing opening/closing option orders from the UI with one click
 - Option chains for the underlying, updating on tick by tick basis
+- Instrument filtering by underlying symbol root, instrument symbol, security type, currency, multiplier
+- Option chain filtering by symbol root, option expiration from/to, option right - put/call/none, option strike from/to
 
 ### Underlying Fields
 - symbol and expiration of the underlying futures contract
@@ -173,6 +175,9 @@
 
 # Trade Analytics
 - Trade analytics for options, futures, futures options, stocks and other instruments
+- Statistics calculation interval - days, weeks, months, years
+- Executions/Trades filtering by underlying symbol root, symbol, security type, option right, currency, instrument multiplier
+- Statistics filtering by symbol root, symbol, security type, option right, currency, multiplier, trade type, interval
 
 ### Executions Fields
 - execution id

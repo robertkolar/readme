@@ -15,7 +15,7 @@
 ### Technology Stack
 - Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL
 - Frontend: Angular v18+, Angular Material
-- DevOps/deployment: GitHub + Actions, AWS EC2 + VPC + ECR, Ubuntu, Docker
+- DevOps/deployment: GitHub Actions, AWS EC2, AWS VPC, AWS ECR, Ubuntu, Docker
 
 ### Underlying Fields
 - symbol and expiration of the underlying futures contract
@@ -187,7 +187,7 @@
 ### Technology Stack
 - Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL
 - Frontend: Angular v18+, Angular Material
-- DevOps/deployment: GitHub + Actions, AWS EC2 + VPC + ECR, Ubuntu, Docker
+- DevOps/deployment: GitHub Actions, AWS EC2, AWS VPC, AWS ECR, Ubuntu, Docker
 
 ### Executions Fields
 - execution id

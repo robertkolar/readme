@@ -11,8 +11,10 @@
 - Option chains for the underlying, updating on tick by tick basis
 - Instrument filtering by underlying symbol root, instrument symbol, security type, currency, multiplier
 - Option chain filtering by symbol root, expiration from/to, right - put/call/none, strike from/to
-- Backend: Java 21, Spring WebFlux 3.3.1, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL
-- Frontend: Angular v18, Angular Material
+
+### Technology Stack
+- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL
+- Frontend: Angular v18+, Angular Material
 - DevOps/deployment: GitHub + Actions, AWS EC2 + VPC + ECR, Ubuntu, Docker
 
 ### Underlying Fields
@@ -181,8 +183,10 @@
 - Statistics calculation interval - days, weeks, months, years
 - Executions/Trades filtering by symbol root, symbol, security type, option right, currency, instrument multiplier
 - Statistics filtering by symbol root, symbol, security type, option right, currency, multiplier, trade type, interval
-- Backend: Java 21, Spring WebFlux 3.3.1, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL
-- Frontend: Angular v18, Angular Material
+
+### Technology Stack
+- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL
+- Frontend: Angular v18+, Angular Material
 - DevOps/deployment: GitHub + Actions, AWS EC2 + VPC + ECR, Ubuntu, Docker
 
 ### Executions Fields

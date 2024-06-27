@@ -14,7 +14,7 @@
 - Connects to Interactive Brokers API Gateway
 
 ### Technology Stack
-- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, IB API 10.19
+- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway, IB API 10.19
 - Frontend: Angular v18+, Angular Material
 - DevOps/deployment: GitHub Actions, AWS EC2, AWS VPC, AWS ECR, Ubuntu, Docker
 
@@ -186,7 +186,7 @@
 - Statistics filtering by symbol root, symbol, security type, option right, currency, multiplier, trade type, interval
 
 ### Technology Stack
-- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL
+- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway
 - Frontend: Angular v18+, Angular Material
 - DevOps/deployment: GitHub Actions, AWS EC2, AWS VPC, AWS ECR, Ubuntu, Docker
 

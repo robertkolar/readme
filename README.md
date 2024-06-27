@@ -14,7 +14,7 @@
 - Connects to Interactive Brokers API Gateway
 
 ### Technology Stack
-- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway, IB API 10.19
+- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway, Interactive Brokers API 10.19
 - Frontend: Angular v18+, Angular Material
 - DevOps/deployment: GitHub Actions, AWS EC2, AWS VPC, AWS ECR, Ubuntu, Docker
 

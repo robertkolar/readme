@@ -11,11 +11,11 @@
 - Option chains for the underlying, updating on tick by tick basis
 - Instrument filtering by underlying symbol root, instrument symbol, security type, currency, multiplier
 - Option chain filtering by symbol root, expiration from/to, right - put/call/none, strike from/to
-- Connects to Interactive Brokers API Gateway
+- Connects to IB API Gateway
 
 ### Technology Stack
-- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway, Interactive Brokers API 10.19
-- Frontend: Angular v18+, Angular Material
+- Backend: Java 21+, Spring WebFlux, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway, IB API
+- Frontend: Angular v20+, Angular Material
 - DevOps/deployment: GitHub Actions, AWS EC2, AWS VPC, AWS ECR, Ubuntu, Docker
 
 ### Underlying Fields
@@ -186,8 +186,8 @@
 - Statistics filtering by symbol root, symbol, security type, option right, currency, multiplier, trade type, interval
 
 ### Technology Stack
-- Backend: Java 21+, Spring WebFlux 3+, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway
-- Frontend: Angular v18+, Angular Material
+- Backend: Java 21+, Spring WebFlux, Project Reactor, RSocket, WebSockets, Hazelcast, Hibernate/JPA, PostgreSQL, Flyway
+- Frontend: Angular v20+, Angular Material
 - DevOps/deployment: GitHub Actions, AWS EC2, AWS VPC, AWS ECR, Ubuntu, Docker
 
 ### Executions Fields
